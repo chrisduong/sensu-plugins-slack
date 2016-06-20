@@ -5,10 +5,23 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 
 ## [Unreleased]
 
+## [1.0.0] - 2016-06-14
+### Added
+- Added a payload_template to allow for a customized JSON payload
+- Ruby 2.3.0 support
+
+### Fixed
+- Extended the payload_template to work with multi-channel handlers
+
+### Changed
+- Update to Rubocop 0.40 and cleanup
+
+### Removed
+- Ruby 1.9.3 support
+
 ## [0.1.2] - 2016-02-05
 ### Added
 - new certs
-- Added a payload_template to allow for a customized JSON payload
 
 ## [0.1.1] - 2015-12-09
 ### Changed
@@ -52,10 +65,11 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 ### Added
 - initial release
 
-[Unreleased]: https://github.com/sensu-plugins/sensu-plugins-ssl/compare/0.1.2...HEAD
-[0.1.2]: https://github.com/sensu-plugins/sensu-plugins-ssl/compare/0.1.1...0.1.2
-[0.1.1]: https://github.com/sensu-plugins/sensu-plugins-ssl/compare/0.1.0...0.1.1
-[0.1.0]: https://github.com/sensu-plugins/sensu-plugins-ssl/compare/0.0.4...0.1.0
-[0.0.4]: https://github.com/sensu-plugins/sensu-plugins-ssl/compare/0.0.3...0.0.4
-[0.0.3]: https://github.com/sensu-plugins/sensu-plugins-ssl/compare/0.0.2...0.0.3
-[0.0.2]: https://github.com/sensu-plugins/sensu-plugins-ssl/compare/0.0.1...0.0.2
+[Unreleased]: https://github.com/sensu-plugins/sensu-plugins-slack/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/sensu-plugins/sensu-plugins-slack/compare/v0.1.2...1.0.0
+[0.1.2]: https://github.com/sensu-plugins/sensu-plugins-slack/compare/0.1.1...v0.1.2
+[0.1.1]: https://github.com/sensu-plugins/sensu-plugins-slack/compare/0.1.0...0.1.1
+[0.1.0]: https://github.com/sensu-plugins/sensu-plugins-slack/compare/0.0.4...0.1.0
+[0.0.4]: https://github.com/sensu-plugins/sensu-plugins-slack/compare/0.0.3...0.0.4
+[0.0.3]: https://github.com/sensu-plugins/sensu-plugins-slack/compare/0.0.2...0.0.3
+[0.0.2]: https://github.com/sensu-plugins/sensu-plugins-slack/compare/0.0.1...0.0.2

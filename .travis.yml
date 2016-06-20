@@ -4,10 +4,10 @@ cache:
 install:
 - bundle install
 rvm:
-- 1.9.3
 - 2.0
 - 2.1
 - 2.2
+- 2.3.0
 notifications:
   email:
     recipients:
@@ -24,10 +24,10 @@ deploy:
     secure: Luv34w7vY7lhRb9+dEY62dPt99UDJ6kQRKuMP3sXXWG4ZBhkPAGAw0BUJwA5Ia3iLum+9dRm5cpARiJOn0AIATjGkliuQGWkW6Hp1M8/Eh81TorMqeDkS4LTCPBQMySNeCqAXMLeek7gGXpLa+3kF3hd2cSr2jb7jmzCN4NLm1s=
   gem: sensu-plugins-slack
   on:
-    ags: true
+    tags: true
     all_branches: true
-    rvm: 1.9.3
     rvm: 2.0
     rvm: 2.1
     rvm: 2.2
+    rvm: 2.3.0
     repo: sensu-plugins/sensu-plugins-slack
